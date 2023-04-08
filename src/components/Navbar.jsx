@@ -48,9 +48,12 @@ const Navbar = () => {
           onClick={() => {
             //setActive will track where we are on the page
             setActive("");
+            //this is going to the scroll to the top of the page
             window.scrollTo(0, 0);
           }}
         >
+
+
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Adrian &nbsp;
