@@ -53,7 +53,7 @@ const Navbar = () => {
           }}
         >
     
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
+          <img src={logo} alt='logo' className='w-9 h-9 object-contain'  /> 
 
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             <span className='sm:block hidden'> Helin Akdoğan</span>
@@ -64,10 +64,13 @@ const Navbar = () => {
 
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((nav) => (
+            //this is for getting each link and render an li for each of them
+            //used a tag for rendering nav.title
             <li
               key={nav.id}
-              className={`${active === nav.title ? "text-white" : "text-secondary"
-                } hover:text-white text-[18px] font-medium cursor-pointer`}
+              //if li is active? change color + hover
+              className={`${active === nav.title ? "text-white" : "text-secondary"} hover:text-white text-[18px] font-medium cursor-pointer`}
+              //setActive will check if link is currently clicked 
               onClick={() => setActive(nav.title)}
             >
               <a href={`#${nav.id}`}>{nav.title}</a>
@@ -75,11 +78,15 @@ const Navbar = () => {
           ))}
         </ul>
 
+        
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img
+          //this is mobile nav bar for small devices
+          //you can check toggle state and close/open it
             src={toggle ? close : menu}
             alt='menu'
             className='w-[28px] h-[28px] object-contain'
+            //when we click, we want to change the state
             onClick={() => setToggle(!toggle)}
           />
 
