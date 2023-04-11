@@ -52,7 +52,7 @@ const About = () => {
         and expertise in frameworks like React, Node.js, and
         Three.js. I'm eager to learn new technologies. 
         Also, I enjoy creating efficient and user-friendly solutions 
-        that solve real-world problems.
+        that solve real-world problems!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
