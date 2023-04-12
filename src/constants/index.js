@@ -54,7 +54,7 @@ import {
       icon: backend,
     },
     {
-      title: "Backend Development ",
+      title: "Backend Web Development ",
       icon: creator,
     },
   ];
