@@ -73,10 +73,11 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
+    /*
     {
       name: "TypeScript",
       icon: typescript,
-    },
+    },*/
     {
       name: "React JS",
       icon: reactjs,
@@ -105,6 +106,7 @@ import {
       name: "git",
       icon: git,
     },
+    /*
     {
       name: "figma",
       icon: figma,
@@ -112,7 +114,7 @@ import {
     {
       name: "docker",
       icon: docker,
-    },
+    },*/
   ];
   
   const experiences = [
