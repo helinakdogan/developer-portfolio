@@ -19,6 +19,7 @@ import {
     starbucks,
     tesla,
     shopify,
+    bau,
     carrent,
     jobit,
     tripguide,
@@ -116,18 +117,20 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      //"#383E56"
+      title: "College student",
+      company_name: "Bahcesehir University",
+      icon: bau,
+      iconBg: "#d1d1d1",
+      date: "October 2020 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "My major is computer engineering and its language is English",
+        "I have fulfilled my university English Proficiency requirement by graduating successfully from prep school(first year of major).",
+        "Beside college lessons, I got started developing and maintaining small web applications and clone projects using mainly Javascript, Java and frameworks like React.",
       ],
     },
+    
+    /*
     {
       title: "React Native Developer",
       company_name: "Tesla",
@@ -166,7 +169,7 @@ import {
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
-    },
+    },*/
   ];
   
   const testimonials = [
