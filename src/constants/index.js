@@ -132,7 +132,7 @@ import {
       ],
     },
     
-    /*
+     /*
     {
       title: "React Native Developer",
       company_name: "Tesla",
