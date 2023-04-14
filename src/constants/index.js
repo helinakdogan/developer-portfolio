@@ -118,6 +118,7 @@ import {
   ];
   
   const experiences = [
+    
     {
       //"#383E56"
       title: "College student",
