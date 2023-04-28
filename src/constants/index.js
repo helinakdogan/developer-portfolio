@@ -22,6 +22,9 @@ import {
     bau,
     carrent,
     jobit,
+    quiz,
+    notes,
+    cyrpto,
     tripguide,
     threejs,
   } from "../assets";
@@ -204,14 +207,15 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Quiz App",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "React quiz app using api to get new questions. User can change difficulty level of the quiz before starting. Each question has a timer. Also, it calculates your final score according to your correct answers.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
+        /*
         {
           name: "mongodb",
           color: "green-text-gradient",
@@ -219,16 +223,17 @@ import {
         {
           name: "tailwind",
           color: "pink-text-gradient",
-        },
+        },*/
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: quiz,
+      source_code_link: "https://github.com/helinakdogan/quiz-app",
     },
     {
-      name: "Job IT",
+      name: "Vanilla Javascript Projects",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application projects that is created using only Html Css and Javascript like Note App, Text to Speech Converter, Random Quote Generator, Currency Converter...",
       tags: [
+        /*
         {
           name: "react",
           color: "blue-text-gradient",
@@ -240,31 +245,27 @@ import {
         {
           name: "scss",
           color: "pink-text-gradient",
-        },
+        },*/
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: notes,
+      source_code_link: "https://github.com/helinakdogan/vanilla-javascript-projects-for-beginners",
     },
     {
-      name: "Trip Guide",
+      name: "Web 3.0 Blockchain Project",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Clone React blockchain app that provides safe cyrpto wallet for selling and buying crypto coins.",
       tags: [
         {
-          name: "nextjs",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
+          name: "tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: cyrpto,
+      source_code_link: "https://github.com/helinakdogan/Web3.0-Blockchain-Application",
     },
   ];
   

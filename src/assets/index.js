@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import logo1 from "./logo1.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -30,9 +31,13 @@ import bau from "./company/bahcesehir.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import quiz from "./quiz.png";
+import notes from "./notes.png";
+import cyrpto from "./cyrpto.png";
 
 export {
   logo,
+  logo1,
   backend,
   creator,
   mobile,
@@ -60,5 +65,8 @@ export {
   bau,
   carrent,
   jobit,
+  notes,
+  quiz,
+  cyrpto,
   tripguide,
 };
