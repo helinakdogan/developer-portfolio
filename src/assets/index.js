@@ -1,5 +1,5 @@
 import logo from "./logo.svg";
-import logo1 from "./logo1.svg";
+import logo4 from "./logo4.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -37,7 +37,7 @@ import cyrpto from "./cyrpto.png";
 
 export {
   logo,
-  logo1,
+  logo4,
   backend,
   creator,
   mobile,
