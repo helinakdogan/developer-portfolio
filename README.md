@@ -1,3 +1,3 @@
 # https://helinakdogan.github.io/
 
-my personal page
+my portfolio website
