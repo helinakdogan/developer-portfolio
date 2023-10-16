@@ -20,6 +20,7 @@ import {
     tesla,
     shopify,
     bau,
+    ubs,
     carrent,
     jobit,
     quiz,
@@ -123,33 +124,29 @@ import {
   const experiences = [
     
     {
-      title: "College student",
+      title: "College Student",
       company_name: "Bahcesehir University",
       icon: bau,
       iconBg: "#d1d1d1",
-      date: "October 2020 - Present",
+      date: "October 2021 - Present",
       points: [
         "My major is computer engineering and its language is English",
         "I have fulfilled my university English Proficiency requirement by graduating successfully from prep school(first year of major).",
-        "Beside college lessons, I got started developing and maintaining small web applications and clone projects using mainly Javascript, Java and frameworks like React.",
+        "Beside college lessons, I got started developing and maintaining small web applications and clone projects using mainly Javascript, Java and frameworks like React, Node.js.",
+      ],
+    },
+    {
+      title: "Web Developer Intern",
+      company_name: "Usta Bilgi Sistemleri A.Ş.",
+      icon: ubs,
+      iconBg: "#d1d1d1",
+      date: "July 2023 - August 2023",
+      points: [
+        "I contributed to the development of a web application for human resources department to manage employees of the company.",
+        "Technologies I mainly used are React.js, JavaScript, ASP.NET, PostgreSQL, github, C#",
       ],
     },
     
-     /*
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-   */
   ];
   
   const testimonials = [
