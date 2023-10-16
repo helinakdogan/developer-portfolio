@@ -48,8 +48,8 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a computer engineering student with some experience in html5, css3 
-        and JavaScript. I'm focused on gaining expertise in frameworks like React,
+        I'm a computer engineering student with some experience in web development.
+        I'm focused on gaining expertise in frameworks like React,
         Node js and Three.js. I'm a quick learner. Creating efficient and user-friendly solutions 
         that solve real-world problems is my passion. What I'm currently learning are shown below.
       </motion.p>
